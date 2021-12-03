@@ -1,0 +1,17 @@
+{
+  "name": "advent-of-code-2021",
+  "version": "1.0.0",
+  "description": "Solutions to AoC 2021",
+  "scripts": {
+    "start": "ts-node day-${DAY}"
+  },
+  "author": "Kai Wood <kwood@kwd.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^16.11.11"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0"
+  }
+}
