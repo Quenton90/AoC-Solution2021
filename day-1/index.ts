@@ -18,7 +18,7 @@ function increasesReducer(counter: number, current: number, index: number, list:
 console.log('Part 1: ' + depthMeasurements.reduce(increasesReducer, 0));
 
 /**
- * Day 2
+ * Part 2
  */
 function increasesWithoutNoise(counter: number, current: number, index: number, list: Array<number>) {
   if (index > 2 && (list[index - 3] + list[index - 2] + list[index - 1]) < (list[index - 2] + list[index - 1] + list[index]))
